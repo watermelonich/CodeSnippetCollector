@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="script.js"></script>
+    <title>CSnippy</title>
+</head>
+<body>
+    <div class="title">
+        <h4>My Code Snippet Collector</h4>
+    </div>
+    <hr>
+    <div class="navbar" id="fileList">
+        <h6>My Code Snippets:</h6>
+        <div class="contnav" id="filelist">
+
+        </div>
+    </div>
+    <div class="codesnippetcont" contenteditable="true">
+    </div>
+
+    <div class="scfiles">
+        <button id="createfile">Create New File</button>
+        <button id="savefile">Save</button>
+    </div>
+
+    <div class="modal" id="createFileModal">
+        <div class="modal-content">
+            <h3>Create New File</h3>
+            <input type="text" id="fileNameInput" placeholder="Enter a name">
+            <button id="createButton">Create</button>
+            <button id="cancelButton">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>
